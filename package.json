@@ -1,0 +1,41 @@
+{
+    "name": "vyos",
+    "displayName": "VyOS Syntax",
+    "description": "VyOS syntax highlighting for VSCode",
+    "version": "0.1.0",
+    "publisher": "systo",
+    "icon": "images/vyos.png",
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/systo/vsc-vyos-syntax.git"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "VyOS",
+                "aliases": [
+                    "Vyos",
+                    "vyos"
+                ],
+                "extensions": [
+                    ".conf",
+                    ".boot"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "vyos",
+                "scopeName": "text.vyos",
+                "path": "./syntaxes/VyOS.tmLanguage"
+            }
+        ]
+    }
+}
