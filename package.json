@@ -13,14 +13,14 @@
         "url": "git+https://github.com/systo/vsc-vyos-syntax.git"
     },
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [
             {
-                "id": "VyOS",
+                "id": "vyos",
                 "aliases": [
-                    "Vyos",
+                    "VyOS",
                     "vyos"
                 ],
                 "extensions": [
