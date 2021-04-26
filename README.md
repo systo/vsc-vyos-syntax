@@ -1,5 +1,5 @@
 # vsc-vyos-syntax
-Syntax highlighting for vyos in Visual Studio Code and VSCodium forked from [Junos Syntax](https://github.com/woodjme/vscode-junos-syntax).
+Syntax highlighting for vyos in Visual Studio Code and VSCodium forked from [Junos Syntax](https://github.com/woodjme/vscode-junos-syntax). Currently a work in progress.  End goal is support for VSC & OniVim2
 
 ## Limitations
 Support for configuration command syntax is stable, the configuration tree format is currently under development
